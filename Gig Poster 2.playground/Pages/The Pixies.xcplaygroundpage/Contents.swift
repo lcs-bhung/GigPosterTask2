@@ -30,8 +30,57 @@ let black = Color(hue: 0, saturation: 0, brightness: 0, alpha: 100)
 let beige = Color(hue: 69, saturation: 6, brightness: 87, alpha: 100)
 
 // Begin your solution here...
+//Draw the background colour
+canvas.drawShapesWithBorders = false
+canvas.drawShapesWithFill = true
+canvas.fillColor = pink
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 600, anchoredBy: AnchorPosition.bottomLeft, borderWidth: 0)
+//Make the bottom left pattern
+canvas.drawShapesWithBorders = true
+canvas.drawShapesWithFill = false
+canvas.borderColor = black
+canvas.defaultBorderWidth = 13
+//Draw bottom left black
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 370, height: 370, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 260, height: 260, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 150, height: 150, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 40, height: 40, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+
+///Draw bottom right black
+canvas.drawRectangle(at: Point(x: 400, y: 0), width: 370, height: 370, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 400, y: 0), width: 260, height: 260, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 400, y: 0), width: 150, height: 150, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 400, y: 0), width: 40, height: 40, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+//Draw top left black
+canvas.drawRectangle(at: Point(x: 0, y: 400), width: 370, height: 370, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 0, y: 400), width: 260, height: 260, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 0, y: 400), width: 150, height: 150, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 0, y: 400), width: 40, height: 40, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+//draw top right black
+canvas.drawRectangle(at: Point(x: 400, y: 400), width: 370, height: 370, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 400, y: 400), width: 260, height: 260, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 400, y: 400), width: 150, height: 150, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 400, y: 400), width: 40, height: 40, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+//Draw the white squares
+canvas.borderColor = beige
+//Draw the bottom left white
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 328, height: 328, anchoredBy: AnchorPosition.centre, borderWidth: 13)
 
 
+
+
+
+
+
+
+
+
+
+//Cover up the top with pink
+canvas.drawShapesWithBorders = false
+canvas.drawShapesWithFill = true
+canvas.fillColor = pink
+canvas.drawRectangle(at: Point(x: 0, y: 400), width: 400, height: 600, anchoredBy: AnchorPosition.bottomLeft, borderWidth: 0)
 /*:
  ## Use Source Control
  
