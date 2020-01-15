@@ -64,23 +64,37 @@ canvas.drawRectangle(at: Point(x: 400, y: 400), width: 40, height: 40, anchoredB
 //Draw the white squares
 canvas.borderColor = beige
 //Draw the bottom left white
-canvas.drawRectangle(at: Point(x: 0, y: 0), width: 328, height: 328, anchoredBy: AnchorPosition.centre, borderWidth: 13)
-
-
-
-
-
-
-
-
-
-
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 315, height: 315, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 205, height: 205, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 315, height: 315, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 95, height: 95, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+//Draw bottom right
+canvas.drawRectangle(at: Point(x: 400, y: 0), width: 315, height: 315, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 400, y: 0), width: 205, height: 205, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 400, y: 0), width: 315, height: 315, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 400, y: 0), width: 95, height: 95, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+//Draw top left
+canvas.drawRectangle(at: Point(x: 0, y: 400), width: 315, height: 315, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 0, y: 400), width: 205, height: 205, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 0, y: 400), width: 315, height: 315, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 0, y: 400), width: 95, height: 95, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+//Draw top right
+canvas.drawRectangle(at: Point(x: 400, y: 400), width: 315, height: 315, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 400, y: 400), width: 205, height: 205, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 400, y: 400), width: 315, height: 315, anchoredBy: AnchorPosition.centre, borderWidth: 13)
+canvas.drawRectangle(at: Point(x: 400, y: 400), width: 95, height: 95, anchoredBy: AnchorPosition.centre, borderWidth: 13)
 
 //Cover up the top with pink
 canvas.drawShapesWithBorders = false
 canvas.drawShapesWithFill = true
 canvas.fillColor = pink
 canvas.drawRectangle(at: Point(x: 0, y: 400), width: 400, height: 600, anchoredBy: AnchorPosition.bottomLeft, borderWidth: 0)
+
+
+
+
+
+
 /*:
  ## Use Source Control
  
