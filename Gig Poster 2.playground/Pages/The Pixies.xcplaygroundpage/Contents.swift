@@ -89,7 +89,24 @@ canvas.drawShapesWithBorders = false
 canvas.drawShapesWithFill = true
 canvas.fillColor = pink
 canvas.drawRectangle(at: Point(x: 0, y: 400), width: 400, height: 600, anchoredBy: AnchorPosition.bottomLeft, borderWidth: 0)
+//Write the texts
 
+canvas.drawText(message: "friday", at: Point(x: 15, y: 555), size: 11)
+canvas.drawText(message: "august 19 1977", at: Point(x: 15, y: 535), size: 11)
+canvas.drawText(message: "tickets $4.50", at: Point(x: 15, y: 515), size: 11)
+canvas.drawText(message: "with", at: Point(x: 120, y: 555), size: 11)
+canvas.drawText(message: "special guest", at: Point(x: 120, y: 535), size: 11)
+canvas.drawText(message: "wolfgang", at: Point(x: 120, y: 515), size: 11)
+canvas.drawText(message: "at ben h. lewis hall", at: Point(x: 270, y: 555), size: 11)
+canvas.drawText(message: "3443 orange st.", at: Point(x: 270, y: 535), size: 11)
+canvas.drawText(message: "riverside, california", at: Point(x: 270, y: 515), size: 11)
+
+
+
+
+
+canvas.textColor = beige
+canvas.drawText(message: "the runaways", at: Point(x: 15, y: 410), size: 50)
 
 
 
